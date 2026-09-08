@@ -1,0 +1,9 @@
+{
+  "api_url": "http://localhost:3000/api",
+  "api_token": "replace-with-an-agent-enrollment-token",
+  "host_id": 1,
+  "profile_id": 1,
+  "test_folder": "./authorized-test-folder",
+  "quarantine_directory": "./designated-quarantine",
+  "heartbeat_seconds": 15
+}
