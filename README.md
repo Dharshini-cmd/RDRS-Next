@@ -1,43 +1,45 @@
-# RDRS Next
+# 🛡️ RDRS-Next — Real-Time Ransomware Detection & Response System
 
-RDRS Next is a defensive ransomware-observability prototype designed for **authorized security testing environments**.
+RDRS-Next is a defensive cybersecurity platform designed to detect suspicious ransomware-like activity through real-time telemetry, behavioral analysis, risk scoring, incident management, and security response workflows.
 
-It combines:
+The system combines a web-based Security Operations Center (SOC) dashboard with backend telemetry processing and a local endpoint monitoring architecture.
 
-- A browser-based security operations dashboard
-- A clearly labeled telemetry simulation lab
-- A local Python endpoint agent
-- Explainable risk scoring
-- Incident investigation and response tracking
-- Evidence and action history
-- Audit logging
-- Controlled test-artifact quarantine requests
-- MySQL database persistence through Drizzle ORM
-
-RDRS is intended for experimentation, demonstrations, development, and controlled security testing. It is **not a production endpoint detection and response (EDR) platform**.
+RDRS-Next is designed for cybersecurity education, authorized defensive security testing, ransomware behavior analysis, and SOC-style incident investigation.
 
 ---
 
-## Overview
+## 🌐 Project Overview
 
-RDRS monitors activity within explicitly configured test environments and converts normalized file events into risk signals.
+RDRS-Next provides a centralized security monitoring interface for observing endpoint activity and identifying suspicious ransomware-like behavior.
 
-The dashboard provides visibility into:
-
-- Current monitoring posture
-- Recent file activity
-- Active incidents
-- Risk scores
-- Incident evidence
-- Operator actions
-- Monitoring profiles
-- Audit history
-- Report generation
-- Synthetic security scenarios
-
-The project uses the same normalized event model for both simulated telemetry and the local endpoint agent.
-
-Simulation events are explicitly labeled as:
+The platform is designed around the following workflow:
 
 ```text
-source = simulation
+Endpoint Activity
+       │
+       ▼
+Local Monitoring Agent
+       │
+       ▼
+Telemetry Collection
+       │
+       ▼
+Event Normalization
+       │
+       ▼
+Behavioral Analysis
+       │
+       ▼
+Risk Scoring Engine
+       │
+       ▼
+Incident Generation
+       │
+       ▼
+SOC Dashboard
+       │
+       ├──────────────► Evidence
+       │
+       ├──────────────► Response Actions
+       │
+       └──────────────► Reports
