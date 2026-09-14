@@ -1,0 +1,22 @@
+Key Features
+🖥️ Real-time endpoint activity monitoring architecture
+📡 Telemetry ingestion and heartbeat monitoring
+📁 File activity monitoring
+🔄 Create, modify, rename and delete event tracking
+📊 Behavioral ransomware detection
+🎯 Explainable 0–100 risk scoring
+🚨 Automatic incident generation
+🔥 Severity classification
+🧪 Safe ransomware behavior simulation
+🛡️ Incident response workflow
+📦 Evidence and quarantine workflow
+👨‍💻 SOC-style analyst dashboard
+🖥️ Host monitoring
+📋 Monitored profile management
+📈 Live activity monitoring
+📑 JSON and CSV report generation
+🧾 Audit logging
+🔐 Authentication and protected API routes
+🧪 Automated backend testing
+🗄️ Persistent database storage
+⚙️ Configurable monitoring profiles
